@@ -2,7 +2,7 @@
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
 
-$koneksi = mysqli_connect("localhost", "root", "", "db_xirpl1_34_1");
+$koneksi = mysqli_connect("localhost", "xirpl1-34", "3093736893", "db_xirpl1-34_1");
 ?>
 <!DOCTYPE html>
 <html>
