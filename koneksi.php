@@ -1,4 +1,7 @@
 <?php
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
+
 $host = "localhost";
 $user = "xirpl1-34";
 $pass = "3093736893";

@@ -1,4 +1,7 @@
 <?php
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
+
 $koneksi = mysqli_connect("localhost", "root", "", "db_xirpl1_34_1");
 $id = $_GET['id'];
 $data = mysqli_fetch_array(mysqli_query($koneksi, "SELECT * FROM Jual_ikan WHERE id_ikan='$id'"));
